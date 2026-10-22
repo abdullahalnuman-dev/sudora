@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudora: Sudoku Puzzle — Classic Sudoku with daily challenges</title>
+  <meta name="description" content="Sudora: Sudoku Puzzle is a clean, offline classic Sudoku game with six difficulty levels, a daily challenge calendar, notes, undo, three free hints a day and detailed statistics.">
+  <meta name="application-name" content="Sudora">
+  <meta name="theme-color" content="#3d5afe">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sudora">
+  <meta property="og:title" content="Sudora: Sudoku Puzzle">
+  <meta property="og:description" content="Classic Sudoku with six difficulty levels, daily challenges, notes, hints and statistics. Puzzles are generated on your device.">
+  <meta property="og:image" content="assets/images/sudora-icon.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-md site-nav sticky-top" aria-label="Main">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/sudora-icon.png" alt="" width="36" height="36">
+          <span>Sudora</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="siteNav">
+          <ul class="navbar-nav ms-auto gap-md-2">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how-to-play">How to play</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ads">Ads</a></li>
+            <li class="nav-item"><a class="nav-link" href="#privacy">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6">
+            <p class="eyebrow mb-3"><i class="bi bi-grid-3x3" aria-hidden="true"></i> Sudora: Sudoku Puzzle</p>
+            <h1 id="hero-title">Classic Sudoku, <span class="accent">calm and clear.</span></h1>
+            <p class="lead mt-3 mb-4">
+              Sudora is a clean, offline Sudoku game with six difficulty levels, a daily challenge calendar and
+              the tools you expect: notes, undo, highlights and gentle hints. Every puzzle is generated on your
+              device and has exactly one solution.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-sd" href="#features">Explore features</a>
+              <a class="btn btn-sd-outline" href="privacy-policy.html">Read the Privacy Policy</a>
+            </div>
+            <p class="status-note mt-4 mb-0">
+              <i class="bi bi-info-circle" aria-hidden="true"></i>
+              Sudora is being prepared for release on Android. Store links will be added here when the listing is live.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="mini-board" aria-hidden="true">
+              <span>5</span>
+              <span>3</span>
+              <span>4</span>
+              <span>6</span>
+              <span class="peer">7</span>
+              <span>8</span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span>6</span>
+              <span class="u">7</span>
+              <span>2</span>
+              <span>1</span>
+              <span class="peer">9</span>
+              <span>5</span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span>9</span>
+              <span>8</span>
+              <span></span>
+              <span class="peer"></span>
+              <span></span>
+              <span></span>
+              <span>6</span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span>9</span>
+              <span class="peer"></span>
+              <span class="u peer">6</span>
+              <span class="peer"></span>
+              <span></span>
+              <span></span>
+              <span>3</span>
+              <span class="peer"></span>
+              <span class="peer"></span>
+              <span class="peer"></span>
+              <span class="peer"></span>
+              <span class="sel"></span>
+              <span class="peer">3</span>
+              <span class="peer"></span>
+              <span class="note peer"><i></i><i>2</i><i></i><i>4</i><i>5</i><i></i><i></i><i>8</i><i>9</i></span>
+              <span class="peer">1</span>
+              <span>7</span>
+              <span></span>
+              <span>3</span>
+              <span class="peer">9</span>
+              <span class="peer"></span>
+              <span class="peer">4</span>
+              <span></span>
+              <span></span>
+              <span>6</span>
+              <span></span>
+              <span>6</span>
+              <span>1</span>
+              <span>5</span>
+              <span class="peer"></span>
+              <span>7</span>
+              <span class="u">2</span>
+              <span></span>
+              <span>4</span>
+              <span class="note"><i></i><i>2</i><i></i><i></i><i></i><i></i><i></i><i>8</i><i>9</i></span>
+              <span></span>
+              <span>7</span>
+              <span>4</span>
+              <span class="peer">1</span>
+              <span></span>
+              <span></span>
+              <span>3</span>
+              <span>5</span>
+              <span>3</span>
+              <span></span>
+              <span>5</span>
+              <span></span>
+              <span class="peer"></span>
+              <span></span>
+              <span></span>
+              <span class="u">7</span>
+              <span>9</span>
+            </div>
+            <p class="visually-hidden">Illustration of a Sudoku grid with a selected cell, highlighted row, column and box, and pencil notes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section section-alt" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <h2 class="section-title" id="features-title">Everything you need, nothing you don't</h2>
+        <p class="section-intro mb-5">Sudora focuses on the classic 9×9 puzzle and the small details that make solving pleasant.</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true"><i class="bi bi-bar-chart-steps"></i></div>
+              <h3>Six difficulty levels</h3>
+              <p>From Beginner to Master. Beginner and Easy puzzles can be solved with simple techniques; harder levels give you fewer clues.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon teal" aria-hidden="true"><i class="bi bi-calendar-check"></i></div>
+              <h3>Daily challenge</h3>
+              <p>A new puzzle every day with a monthly calendar, current and best streaks, and the option to play or replay past days.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true"><i class="bi bi-pencil"></i></div>
+              <h3>Notes that keep up</h3>
+              <p>Pencil in candidates, and Sudora removes matching notes from the row, column and box when you place a digit.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon teal" aria-hidden="true"><i class="bi bi-lightbulb"></i></div>
+              <h3>Three free hints a day</h3>
+              <p>Stuck? A hint reveals one cell. You get three free hints every day, and you can choose to watch an optional video for one more.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true"><i class="bi bi-arrow-counterclockwise"></i></div>
+              <h3>Undo, redo and erase</h3>
+              <p>Step back through your moves freely. Highlights for the selected row, column, box and matching digits help you spot patterns.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon teal" aria-hidden="true"><i class="bi bi-check2-circle"></i></div>
+              <h3>Your rules</h3>
+              <p>Turn auto-check, the three-mistake limit, the timer and highlights on or off. Long-press a number to fill it quickly across the grid.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true"><i class="bi bi-graph-up"></i></div>
+              <h3>Detailed statistics</h3>
+              <p>Games played and won, win rate, best and average times, best score, perfect wins and win streaks for each difficulty.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon teal" aria-hidden="true"><i class="bi bi-moon-stars"></i></div>
+              <h3>Light and dark themes</h3>
+              <p>Follow your system setting or pick light or dark, with sound, vibration and keep-screen-on options.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true"><i class="bi bi-wifi-off"></i></div>
+              <h3>Plays offline</h3>
+              <p>Puzzles are generated on your device and games are saved automatically, so you can continue any time, with or without a connection.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why play -->
+    <section class="section" aria-labelledby="why-title">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-start">
+          <div class="col-lg-5">
+            <h2 class="section-title" id="why-title">A few quiet minutes, well spent</h2>
+            <p class="section-intro">
+              Sudoku needs no maths, only logic and a little patience. Sudora is designed for short breaks and
+              longer sessions alike, and it stays out of your way while you think.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-4">
+              <div class="col-sm-6 reveal">
+                <div class="info-panel">
+                  <h3><i class="bi bi-cup-hot text-primary" aria-hidden="true"></i> Short breaks</h3>
+                  <p class="mb-0 text-muted-ink">A Beginner or Easy puzzle fits a coffee break, and your progress is saved if you are interrupted.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 reveal">
+                <div class="info-panel">
+                  <h3><i class="bi bi-calendar-heart text-primary" aria-hidden="true"></i> A daily habit</h3>
+                  <p class="mb-0 text-muted-ink">The daily challenge gives you one shared puzzle per day and an optional reminder at a time you choose.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 reveal">
+                <div class="info-panel">
+                  <h3><i class="bi bi-trophy text-primary" aria-hidden="true"></i> Steady progress</h3>
+                  <p class="mb-0 text-muted-ink">Move up through the levels and watch your times and win streaks improve in the statistics.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 reveal">
+                <div class="info-panel">
+                  <h3><i class="bi bi-emoji-smile text-primary" aria-hidden="true"></i> No pressure</h3>
+                  <p class="mb-0 text-muted-ink">Switch off the timer or the mistake limit whenever you prefer a relaxed game.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to play -->
+    <section class="section section-alt" id="how-to-play" aria-labelledby="howto-title">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-6">
+            <h2 class="section-title" id="howto-title">How to play</h2>
+            <p class="section-intro mb-4">The grid has 9 rows, 9 columns and 9 boxes of 3×3 cells. Fill every empty cell with a digit from 1 to 9 so that each row, each column and each box contains every digit exactly once.</p>
+            <ol class="steps">
+              <li>
+                <h3>Pick a cell, then a number</h3>
+                <p>Tap an empty cell and tap a digit on the number pad to place it.</p>
+              </li>
+              <li>
+                <h3>Pencil in candidates</h3>
+                <p>Turn on Notes to mark the digits a cell could hold. Tap a digit again to remove the note.</p>
+              </li>
+              <li>
+                <h3>Fill faster</h3>
+                <p>Long-press a number to lock it, then tap cells to place that number quickly.</p>
+              </li>
+              <li>
+                <h3>Change your mind</h3>
+                <p>Undo and Redo step through your moves, and Erase clears a cell.</p>
+              </li>
+            </ol>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-panel">
+              <h3><i class="bi bi-stars text-primary" aria-hidden="true"></i> Good to know</h3>
+              <ul>
+                <li><strong>Every puzzle has one solution</strong> that can be reached by logic alone.</li>
+                <li><strong>Hints are permanent.</strong> A revealed cell stays revealed; Undo only reverses your own moves.</li>
+                <li><strong>Mistakes:</strong> with auto-check on, a wrong digit counts as a mistake. After three mistakes the game ends, unless you turned the limit off.</li>
+                <li><strong>Autosave:</strong> leave at any time and continue later from Home.</li>
+                <li><strong>Keyboard support</strong> on the desktop build: digits 1–9, arrow keys, Backspace, N for notes and Ctrl+Z / Ctrl+Y.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ads disclosure -->
+    <section class="section" id="ads" aria-labelledby="ads-title">
+      <div class="container">
+        <h2 class="section-title" id="ads-title">About ads in Sudora</h2>
+        <p class="section-intro mb-4">
+          Sudora is free to play and supported by ads from Google AdMob on Android. We keep them out of the way of the puzzle.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 reveal">
+            <div class="info-panel">
+              <h3><i class="bi bi-hand-index-thumb text-primary" aria-hidden="true"></i> Optional videos you choose</h3>
+              <ul>
+                <li>Watch a short video for <strong>one extra hint</strong> after your three free daily hints are used.</li>
+                <li>Watch a video for a <strong>second chance</strong> after the mistake limit (once per game).</li>
+                <li>Watch a video to <strong>double your score</strong> on the result screen.</li>
+                <li>Rewards are given only when the video is completed. Declining never blocks the game.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 reveal">
+            <div class="info-panel">
+              <h3><i class="bi bi-shield-check text-primary" aria-hidden="true"></i> Never mid-puzzle</h3>
+              <ul>
+                <li>No banner ads, and no full-screen ads while you are solving.</li>
+                <li>An occasional full-screen ad may appear after you finish a puzzle and tap <strong>Continue</strong>, at most once every few minutes and never in your first session.</li>
+                <li>Where required by law, you are asked for consent before personalised ads, and you can change your choice in Settings › Privacy options.</li>
+                <li>The desktop build shows no ads.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section class="section section-alt" id="privacy" aria-labelledby="privacy-title">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-lg-7">
+            <h2 class="section-title" id="privacy-title">Privacy, plainly</h2>
+            <ul class="list-unstyled mt-4 mb-0">
+              <li class="d-flex gap-3 mb-3"><i class="bi bi-person-x fs-4 text-primary" aria-hidden="true"></i><span><strong>No account.</strong> Sudora has no sign-up and asks for no name, email or contacts.</span></li>
+              <li class="d-flex gap-3 mb-3"><i class="bi bi-phone fs-4 text-primary" aria-hidden="true"></i><span><strong>Your game stays on your device.</strong> Progress, statistics and settings are stored locally. On Android they may be included in your own device backup.</span></li>
+              <li class="d-flex gap-3 mb-3"><i class="bi bi-badge-ad fs-4 text-primary" aria-hidden="true"></i><span><strong>Ads involve Google.</strong> On Android, the Google Mobile Ads SDK processes some device data, such as the advertising ID and IP address, to show and measure ads. The Privacy Policy explains what and why.</span></li>
+              <li class="d-flex gap-3"><i class="bi bi-graph-down fs-4 text-primary" aria-hidden="true"></i><span><strong>No analytics or tracking by us.</strong> Sudora contains no analytics or crash-reporting SDK, and this website uses no cookies or trackers.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-5">
+            <div class="info-panel text-center">
+              <i class="bi bi-file-earmark-lock fs-1 text-primary" aria-hidden="true"></i>
+              <h3 class="justify-content-center mt-2">Read the full policy</h3>
+              <p class="text-muted-ink">What data is processed, by whom, and the choices you have.</p>
+              <a class="btn btn-sd" href="privacy-policy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="brand mb-2"><img src="assets/images/sudora-icon.png" alt="" width="32" height="32"> Sudora</p>
+          <p class="small mb-0">Sudora: Sudoku Puzzle — classic Sudoku for Android.</p>
+        </div>
+        <div class="col-md-6 text-md-end footer-links">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#ads">About ads</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <p class="small mb-0">&copy; 2026 Dvexo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
